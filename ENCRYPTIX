@@ -1,0 +1,30 @@
+Task 2: Develop a calculator program that performs basic arithmetic operations
+such as addition, subtraction, multiplication, and division. Allow the user
+to input two numbers and choose an operation to perform.
+
+#include <iostream>
+using namespace std ;
+int main() {
+     long  double number1, number2 ;
+     char operation ;
+   cout<<"Enter the number 1"<<endl;
+    cin>>number1;
+   cout<<"Enter the number 2"<<endl;
+    cin>>number2;
+  cout<<"Enter your arithmetic operation"<<endl;
+    cin>>operation;
+  if(operation == '+'){
+      cout<<"number1+number2 = "<<number1 + number2<<endl;
+  }
+  else if(operation == '-'){
+      cout<<"number1-number2 = "<<number1 - number2<<endl;
+  }
+  else if(operation == '*'){
+      cout<<"number1*number2 = "<<number1 * number2<<endl;
+  }
+  else if(operation == '/'){
+      cout<<"number1/number2 = "<<number1 / number2<<endl;
+      
+  }
+   return 0;
+}
